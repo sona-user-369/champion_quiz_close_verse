@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Champion-Quiz</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" >
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    </head>
+    <body>
+        <div class="text-center text-success"><h1 class="shadow">Champion-Quiz <span class="text-dark">(Version1.0)</span> </h1></div>
+        <div id="quiz">
+           <!-- Question -->
+
+           <!-- End Question -->
+        </div>
+        
+
+        
+        <!-- Action Game -->
+        <div class="text-center pt-4">
+            <button class="btn btn-danger col-md-2 mx-5">Arreter le jeu</button>
+            <button class="btn btn-danger col-md-2 mx-5">Quitter</button>
+        </div>
+        <!-- End Action Game -->
+        
+        <!-- Players -->
+        <div class="row pt-4 text-center">
+            <!-- Player -->
+            <div class="col-sm-2 p-3 mx-3 shadow bg-dark rounded" id="player1">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-success">Player 1</h5>
+                  
+                  <h3><span class="badge bg-primary rounded-pill h-100" id="player1Point">0</span></h3>
+                </div>
+              </div>
+            </div>
+            <!-- End Player  -->
+            <div class="col-sm-2 p-3 mx-3 shadow rounded" id="player2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">Player 2</h5>
+                  
+                  <h3><span class="badge bg-primary rounded-pill h-100" id="player2Point" >0</span></h3>
+                </div>
+              </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-white py-3 mt-3">
+          <div class="container text-center">
+            <p>Made by DonaDavak</p>
+          </div>
+        </footer>
+        
+        <!-- End Player -->
+        
+        
+     <script src="assets/js/papa/papaparse.min.js"></script>
+     <script src="assets/bootstrap/js/bootstrap.min.js"></script>   
+     <script src="assets/js/jquery-3.6.4.min.js"></script>
+     <script src="main.js?v=1234" type="module"></script>
+     <script src="assets/js/jquery.csv.js"></script>
+    </body>
+</html>
